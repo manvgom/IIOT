@@ -1,10 +1,15 @@
 #include "DHT.h" // Include DHT library
+#include "HX711.h"
 #include <ArduinoJson.h>  // https://arduinojson.org/
 #include <PubSubClient.h> // https://github.com/knolleary/pubsubclient
 #include <WiFi.h>
 
 #define DHT_PIN 22     // Defines pin number to which the sensor is connected
 #define DHT_TYPE DHT11 // Defines the sensor type. It can be DHT11 or DHT22
+
+#define LOADCELL_DOUT_PIN = 19;
+#define LOADCELL_SCK_PIN = 18;
+HX711 scale;
 
 // Replace the next variables with your Wi-Fi SSID/Password
 const char *WIFI_SSID = "MIWIFI_Acj3";
@@ -48,6 +53,8 @@ void loop() {
   static float t_vaca = dhtSensor.readTemperature();
   static float lat_vaca = 42.606;
   static float lon_vaca = 2.234;
+  static float comida = scale.get_units(10);
+  static float peso = scale.get_units(10);
     
   static int nowTime = millis();
   static int startTime = 0;
@@ -59,7 +66,7 @@ void loop() {
     publishPlanta(t_fabrica,h_fabrica);
     publishGranja(t_granja,h_granja);
     publishOficina(t_oficina,h_oficina);
-    publishVaca(t_vaca,lat_vaca,lon_vaca);
+    publishVaca(t_vaca,lat_vaca,lon_vaca,peso,comida);
     startTime = nowTime;
   }
 }
@@ -122,22 +129,32 @@ void publishOficina( float t_oficina, float h_oficina) {
   Serial.println(" <= " + String(topic2) + ": " + text2);
 }
 
-void publishVaca( float t_vaca, float lat_vaca, float lon_vaca) {
+void publishVaca( float t_vaca, float lat_vaca, float lon_vaca, float peso, float comida) {
   static const String topicStr1 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "temp";
   static const String topicStr2 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "lat";
   static const String topicStr3 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "lon";
+  static const String topicStr4 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "comida";
+  static const String topicStr5 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "peso";
   static const char *topic1 = topicStr1.c_str();
   static const char *topic2 = topicStr2.c_str();
   static const char *topic3 = topicStr3.c_str();
+  static const char *topic4 = topicStr4.c_str();
+  static const char *topic5 = topicStr5.c_str();
   String text1 = String(t_vaca);
   String text2 = String(lat_vaca);
   String text3 = String(lon_vaca);
+  String text4 = String(comida);
+  String text5 = String(peso);
   mqttClient.publish(topic1, text1.c_str(), RETAINED);
   mqttClient.publish(topic2, text2.c_str(), RETAINED);
   mqttClient.publish(topic3, text3.c_str(), RETAINED);
+  mqttClient.publish(topic4, text4.c_str(), RETAINED);
+  mqttClient.publish(topic5, text5.c_str(), RETAINED);
   Serial.println(" <= " + String(topic1) + ": " + text1);
   Serial.println(" <= " + String(topic2) + ": " + text2);
   Serial.println(" <= " + String(topic3) + ": " + text3);
+  Serial.println(" <= " + String(topic4) + ": " + text4);
+  Serial.println(" <= " + String(topic5) + ": " + text5);
 }
 
 //COMUNICACIONES
