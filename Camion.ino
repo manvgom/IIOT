@@ -53,9 +53,9 @@ void loop() {
 
 
 void publishCamion( float t_camion, float lat_camion, float lon_camion) {
-  static const String topicStr1 = String("MENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "temp";
-  static const String topicStr2 = String("MENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "lat";
-  static const String topicStr3 = String("MENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "lon";
+  static const String topicStr1 = String("DMENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "temp";
+  static const String topicStr2 = String("DMENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "lat";
+  static const String topicStr3 = String("DMENGINEERING") + "/"  + "camion"+ "/"  + String(macAddress)+ "/" + "lon";
   static const char *topic1 = topicStr1.c_str();
   static const char *topic2 = topicStr2.c_str();
   static const char *topic3 = topicStr3.c_str();
