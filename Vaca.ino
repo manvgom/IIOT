@@ -1,10 +1,15 @@
 #include "DHT.h" // Include DHT library
+#include "HX711.h"
 #include <ArduinoJson.h>  // https://arduinojson.org/
 #include <PubSubClient.h> // https://github.com/knolleary/pubsubclient
 #include <WiFi.h>
 
 #define DHT_PIN 22     // Defines pin number to which the sensor is connected
 #define DHT_TYPE DHT11 // Defines the sensor type. It can be DHT11 or DHT22
+
+#define LOADCELL_DOUT_PIN = 19;
+#define LOADCELL_SCK_PIN = 18;
+HX711 scale;
 
 // Replace the next variables with your Wi-Fi SSID/Password
 const char *WIFI_SSID = "MIWIFI_Acj3";
@@ -27,6 +32,10 @@ void setup() {
     
   dhtSensor.begin(); 
   
+  scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
+  scale.set_scale(397);
+  scale.tare(10); 
+  
   mqttClient.setServer(MQTT_BROKER_IP,MQTT_PORT);
   
   connectToWiFiNetwork(); 
@@ -39,6 +48,8 @@ void loop() {
   static float t_vaca = dhtSensor.readTemperature();
   static float lat_vaca = 42.606;
   static float lon_vaca = 2.234;
+  static float comida = scale.get_units(10);
+  static float peso = scale.get_units(10);
 
   static int nowTime = millis();
   static int startTime = 0;
@@ -46,16 +57,18 @@ void loop() {
   nowTime = millis();
   elapsedTime = nowTime - startTime;
   if (elapsedTime >= 2000) {
-    publishVaca(t_vaca,lat_vaca,lon_vaca);
+    publishVaca(t_vaca,lat_vaca,lon_vaca,peso,comida);
     startTime = nowTime;
   }
 }
 
 
-void publishVaca( float t_vaca, float lat_vaca, float lon_vaca) {
+void publishVaca( float t_vaca, float lat_vaca, float lon_vaca, float peso, float comida) {
   static const String topicStr1 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "temp";
   static const String topicStr2 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "lat";
   static const String topicStr3 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "lon";
+  static const String topicStr3 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "comida";
+  static const String topicStr3 = String("DMENGINEERING") + "/"  + "vaca"+ "/"  + String(macAddress)+ "/" + "peso";
   static const char *topic1 = topicStr1.c_str();
   static const char *topic2 = topicStr2.c_str();
   static const char *topic3 = topicStr3.c_str();
