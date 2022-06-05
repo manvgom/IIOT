@@ -54,8 +54,8 @@ void loop() {
 }
 
 void publishOficina( float t_oficina, float h_oficina) {
-  static const String topicStr1 = String("MENGINEERING") + "/"  + "planta/oficina" + "/"  + String(macAddress)+ "/" + "temp";
-  static const String topicStr2 = String("MENGINEERING") + "/"  + "planta/oficina" + "/"  + String(macAddress)+ "/" + "hum";
+  static const String topicStr1 = String("DMENGINEERING") + "/"  + "planta/oficina" + "/"  + String(macAddress)+ "/" + "temp";
+  static const String topicStr2 = String("DMENGINEERING") + "/"  + "planta/oficina" + "/"  + String(macAddress)+ "/" + "hum";
   static const char *topic1 = topicStr1.c_str();
   static const char *topic2 = topicStr2.c_str();
   String text1 = String(t_oficina);
