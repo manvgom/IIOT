@@ -7,8 +7,8 @@
 #define DHT_PIN 22     // Defines pin number to which the sensor is connected
 #define DHT_TYPE DHT11 // Defines the sensor type. It can be DHT11 or DHT22
 
-#define LOADCELL_DOUT_PIN = 19;
-#define LOADCELL_SCK_PIN = 18;
+#define LOADCELL_DOUT_PIN 19;
+#define LOADCELL_SCK_PIN 18;
 HX711 scale;
 
 // Replace the next variables with your Wi-Fi SSID/Password
