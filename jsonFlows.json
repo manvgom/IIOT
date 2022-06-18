@@ -1,0 +1,5268 @@
+[
+    {
+        "id": "aaecbc45e3f1605b",
+        "type": "tab",
+        "label": "DME Granja",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "05b7a88dd3d2ca9d",
+        "type": "tab",
+        "label": "DME  Camion",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ea322d9d7b04ccac",
+        "type": "tab",
+        "label": "DME  Planta",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e1247b2ffee733dd",
+        "type": "tab",
+        "label": "KML ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f93c0a50.5c7e1",
+        "type": "tab",
+        "label": "2. Dashboard",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "14b8c63c8a0907c9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iiot-upc.gleeze.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b51aaef29ffb83fe",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iiot-upc.gleeze.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5e724c8c8aa09d36",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iiot-upc.gleeze.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dbbc63ebfebbba77",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iiot-upc.gleeze.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ef066f605dfecd96",
+        "type": "serial-port",
+        "serialport": "COM3",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "0b0f2492be4abbbd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#cc8100",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d1045d94b7c1d30f",
+        "type": "ui_tab",
+        "name": "Granja",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72243d39b2543fea",
+        "type": "ui_group",
+        "name": "Control Camiones",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "500dfff3a31ca41d",
+        "type": "ui_group",
+        "name": "Rutas",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d7d45dae.03505",
+        "type": "ui_group",
+        "name": "Rutas",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false
+    },
+    {
+        "id": "e3f0e395.bb9ae",
+        "type": "ui_group",
+        "name": "Posición de las Vacas",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "cf6edd1a6ac00a0a",
+        "type": "ui_group",
+        "name": "Posición de las Vacas",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "552d3b21c907356b",
+        "type": "ui_group",
+        "name": "Planta",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0d28af245d9d5637",
+        "type": "ui_group",
+        "name": "Granja",
+        "tab": "d1045d94b7c1d30f",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b193fcf74316c3f7",
+        "type": "ui_group",
+        "name": "Interactions",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "c45c89cc81cd5bd6",
+        "type": "ui_group",
+        "name": "Numbers & Dates",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "caf5b466c0f8a5da",
+        "type": "ui_group",
+        "name": "Colours",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "1faf93f33267cf81",
+        "type": "ui_group",
+        "name": "Audio",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "c3cf0dfee529fe98",
+        "type": "ui_group",
+        "name": "Database",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "7a023ea06e448e75",
+        "type": "ui_group",
+        "name": "Email & Password",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "474d6df289f14c13",
+        "type": "ui_group",
+        "name": "Graphics",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "8f8414ab2cb9eb74",
+        "type": "ui_group",
+        "name": "Image",
+        "tab": "",
+        "order": 8,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "5183c6c3c51209a7",
+        "type": "ui_group",
+        "name": "Interactions",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "404b785d6d6074e4",
+        "type": "ui_group",
+        "name": "Numbers & Dates",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "b85d334a79c7b38e",
+        "type": "ui_group",
+        "name": "Colours",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "82b5422b38f6ee85",
+        "type": "ui_group",
+        "name": "Audio",
+        "tab": "",
+        "order": 5,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "80580c3e1e426bee",
+        "type": "ui_group",
+        "name": "Database",
+        "tab": "",
+        "order": 6,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "696afe4e7ca5025a",
+        "type": "ui_group",
+        "name": "Email & Password",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "706d7656582267a6",
+        "type": "ui_group",
+        "name": "Graphics",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "37c011a4fbaeb45f",
+        "type": "ui_group",
+        "name": "Image",
+        "tab": "",
+        "order": 16,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "fe5f20a44ae02011",
+        "type": "ui_group",
+        "name": "sistema clima",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0a66db6e946d2be1",
+        "type": "ui_group",
+        "name": "PLANTA INDUSTRIAL",
+        "tab": "",
+        "order": 17,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee8aa97bb0e018a8",
+        "type": "ui_group",
+        "name": "descarga",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "50",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "93f843198c08def0",
+        "type": "ui_group",
+        "name": "camiones",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9d75c6ef54cc7859",
+        "type": "ui_group",
+        "name": "consumo maquinas",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d9092083b80d29ea",
+        "type": "ui_group",
+        "name": "Cow Data",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "684ebe968fcee009",
+        "type": "ui_group",
+        "name": "Cow Data",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "55f428461b511dca",
+        "type": "ui_group",
+        "name": "Control Camiones",
+        "tab": "0696d8e0a86b910d",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0696d8e0a86b910d",
+        "type": "ui_tab",
+        "name": "Camiones",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "905f100612cef275",
+        "type": "ui_group",
+        "name": "Planta",
+        "tab": "9dbc633b4b1671ed",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9dbc633b4b1671ed",
+        "type": "ui_tab",
+        "name": "Planta",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "27ddbb1aabdd5a42",
+        "type": "ui_spacer",
+        "z": "e1247b2ffee733dd",
+        "name": "spacer",
+        "group": "45881c1e2de69a5a",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "45881c1e2de69a5a",
+        "type": "ui_group",
+        "name": "Control Camiones",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "18",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f60a0ee9.cecd2",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "Sonae",
+        "name": "InfluxSonaeSv08",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.x"
+    },
+    {
+        "id": "14535c62685ca00f",
+        "type": "sqlitedb",
+        "db": "/data/sqlite_database.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "73f70ddd6fa81864",
+        "type": "sqlitedb",
+        "db": "/data/sqlite_database.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "d7d014a6f82c05eb",
+        "type": "sqlitedb",
+        "db": "C:\\Users\\artur\\OneDrive\\Escritorio\\IIoT\\data/sqlite_database.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "1d357aeeab2ac49d",
+        "type": "sqlitedb",
+        "db": "/data/sqlite_database.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "09bf3e74e80662e5",
+        "type": "telegram bot",
+        "botname": "",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "90a7c98e58c70d67",
+        "type": "telegram bot",
+        "botname": "",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "",
+        "socksusername": "",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "",
+        "publicbotport": "",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "f7e5354df1c26e3b",
+        "type": "telegram bot",
+        "botname": "iiot_mantenimiento_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "5a96d184.52074",
+        "type": "telegram bot",
+        "botname": "username_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "fc883be0af94e154",
+        "type": "telegram bot",
+        "botname": "iiot_mantenimiento_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "08040830a2bf4097",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1d1494b6d44880fa",
+        "type": "ui_spacer",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "spacer",
+        "group": "55f428461b511dca",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "8de9a6b6bf452646",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cbfd24d354d860cc",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f2e414718188aae4",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7fba455231a32556",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 12,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "ebfe7fd41e8558c8",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a2f18f7b745212c7",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "48be908bd42da6c9",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "decdd365d2eb68fb",
+        "type": "ui_spacer",
+        "z": "ea322d9d7b04ccac",
+        "name": "spacer",
+        "group": "905f100612cef275",
+        "order": 25,
+        "width": 18,
+        "height": 1
+    },
+    {
+        "id": "8af3201b.d968f8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iiot-upc.gleeze.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": ""
+    },
+    {
+        "id": "bbe85c6f.f20408",
+        "type": "telegram bot",
+        "botname": "IIoT_UPC_CIM_Bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "6bbd5c00.29be54",
+        "type": "websocket-listener",
+        "path": "/server_status",
+        "wholemsg": "false"
+    },
+    {
+        "id": "b305fc40.15869",
+        "type": "websocket-client",
+        "path": "ws://localhost:1880/server_status",
+        "tls": "",
+        "wholemsg": "false"
+    },
+    {
+        "id": "8415a8c0.27e148",
+        "type": "websocket-listener",
+        "path": "/download_json_file",
+        "wholemsg": "false"
+    },
+    {
+        "id": "f80d369b.ec4678",
+        "type": "websocket-client",
+        "path": "ws://localhost:1880/download_json_file",
+        "tls": "",
+        "wholemsg": "false"
+    },
+    {
+        "id": "56eccd2a.8308d4",
+        "type": "ui_group",
+        "name": "Interactions",
+        "tab": "d29c5eb4.a88af8",
+        "order": 1,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "38679bc6.7b2314",
+        "type": "ui_group",
+        "name": "Numbers & Dates",
+        "tab": "d29c5eb4.a88af8",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": true
+    },
+    {
+        "id": "62174e65.cea8c",
+        "type": "ui_group",
+        "name": "Colours",
+        "tab": "d29c5eb4.a88af8",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "7219682a.d414e8",
+        "type": "ui_group",
+        "name": "Audio",
+        "tab": "d29c5eb4.a88af8",
+        "order": 5,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "3bfd9d7f.cf1362",
+        "type": "sqlitedb",
+        "db": "/home/pi/ddbb/sqlite_database.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "26510aa5.3fee7e",
+        "type": "ui_group",
+        "name": "Database",
+        "tab": "d29c5eb4.a88af8",
+        "order": 6,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "9345face.282d88",
+        "type": "ui_group",
+        "name": "Email & Password",
+        "tab": "d29c5eb4.a88af8",
+        "order": 4,
+        "disp": true,
+        "width": 8,
+        "collapse": true
+    },
+    {
+        "id": "b4a3f1c.6a89d1",
+        "type": "ui_group",
+        "name": "Graphics",
+        "tab": "d29c5eb4.a88af8",
+        "order": 7,
+        "disp": true,
+        "width": "8",
+        "collapse": true
+    },
+    {
+        "id": "cdb3c2d5.f063f",
+        "type": "ui_group",
+        "name": "Image",
+        "tab": "d29c5eb4.a88af8",
+        "order": 8,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "d29c5eb4.a88af8",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "74092214e41798a4",
+        "type": "ui_gauge",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "group": "0d28af245d9d5637",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad (%)",
+        "label": "HR %",
+        "format": "{{msg.payload.hum}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 560,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "635c0aa9e1ba2e47",
+        "type": "ui_gauge",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "group": "0d28af245d9d5637",
+        "order": 2,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura (ºC)",
+        "label": "ºC",
+        "format": "{{msg.payload.temp}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 550,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "e1849882e5f54e87",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "name": "Peso (kg)",
+        "label": "",
+        "format": "{{msg.payload.peso}} kg",
+        "layout": "row-right",
+        "className": "",
+        "x": 560,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c5ab92914bf7262b",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura (ºC)",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-right",
+        "className": "",
+        "x": 530,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "cda7f41466090da2",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "Distancia (km)",
+        "label": "",
+        "format": "{{msg.payload}} km",
+        "layout": "row-right",
+        "className": "",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "cc7dd9e4f0adbecf",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "name": "Comida (kg)",
+        "label": "",
+        "format": "{{msg.payload.comida}} kg",
+        "layout": "row-right",
+        "className": "",
+        "x": 550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c4ef42e5754d4a10",
+        "type": "ui_gauge",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "group": "0d28af245d9d5637",
+        "order": 3,
+        "width": 6,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura Cuba(ºC)",
+        "label": "ºC",
+        "format": "{{msg.payload.temp_cuba}}",
+        "min": "-4",
+        "max": "15",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 540,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ecd2e626c0705795",
+        "type": "ui_numeric",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "label": "Vaca número:",
+        "tooltip": "",
+        "group": "0d28af245d9d5637",
+        "order": 6,
+        "width": 6,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{value}}",
+        "min": "1",
+        "max": "5",
+        "step": 1,
+        "className": "",
+        "x": 660,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09722a2354cd3413",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "name": "Comida",
+        "label": "Comida",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 720,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "f0b755ac4e84b703",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "name": "Distancia",
+        "label": "Distancia",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 720,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "6fc67fa1c8dfb90a",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura",
+        "label": "Temperatura",
+        "format": "",
+        "layout": "row-spread",
+        "className": "",
+        "x": 730,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "47e0483e1deea463",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "name": "Peso",
+        "label": "Peso",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 710,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "144a9f35bc9435df",
+        "type": "mqtt in",
+        "z": "aaecbc45e3f1605b",
+        "name": "Vacas",
+        "topic": "DMENGINEERING/vacas",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "82f594b031845f59"
+            ]
+        ]
+    },
+    {
+        "id": "a0a23ddd058939da",
+        "type": "comment",
+        "z": "aaecbc45e3f1605b",
+        "name": "Vacas",
+        "info": "",
+        "x": 90,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3d935a5b8346e4b1",
+        "type": "comment",
+        "z": "aaecbc45e3f1605b",
+        "name": "Granja",
+        "info": "",
+        "x": 90,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "82f594b031845f59",
+        "type": "json",
+        "z": "aaecbc45e3f1605b",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "c5ab92914bf7262b",
+                "cda7f41466090da2",
+                "cc7dd9e4f0adbecf",
+                "e1849882e5f54e87"
+            ]
+        ]
+    },
+    {
+        "id": "1d616fca70a21563",
+        "type": "mqtt in",
+        "z": "aaecbc45e3f1605b",
+        "name": "Granjas",
+        "topic": "DMENGINEERING/granjas",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "e5c6572195cf5a57"
+            ]
+        ]
+    },
+    {
+        "id": "e5c6572195cf5a57",
+        "type": "json",
+        "z": "aaecbc45e3f1605b",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 270,
+        "y": 460,
+        "wires": [
+            [
+                "c4ef42e5754d4a10",
+                "635c0aa9e1ba2e47",
+                "74092214e41798a4"
+            ]
+        ]
+    },
+    {
+        "id": "80b39d844ed796d3",
+        "type": "ui_button",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "group": "0d28af245d9d5637",
+        "order": 16,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "On",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "52e124aa46e80f44"
+            ]
+        ]
+    },
+    {
+        "id": "52e124aa46e80f44",
+        "type": "ui_led",
+        "z": "aaecbc45e3f1605b",
+        "order": 17,
+        "group": "0d28af245d9d5637",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Ventilador",
+        "x": 640,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "a9999ae0bfe98fab",
+        "type": "ui_button",
+        "z": "aaecbc45e3f1605b",
+        "name": "",
+        "group": "0d28af245d9d5637",
+        "order": 18,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 600,
+        "wires": [
+            [
+                "52e124aa46e80f44"
+            ]
+        ]
+    },
+    {
+        "id": "8d73dd56c0526156",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "name": "Información de Vacas",
+        "label": "",
+        "format": "Información de Vacas",
+        "layout": "col-center",
+        "className": "",
+        "x": 760,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "78947b78f918da57",
+        "type": "ui_text",
+        "z": "aaecbc45e3f1605b",
+        "group": "0d28af245d9d5637",
+        "order": 15,
+        "width": 6,
+        "height": 1,
+        "name": "Ventilador",
+        "label": "",
+        "format": "Ventilador",
+        "layout": "col-center",
+        "className": "",
+        "x": 500,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "2dfba7b90ff845ab",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 26,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo estacionado Mas Almar",
+        "label": "",
+        "format": "{{msg.payload}} s",
+        "layout": "col-center",
+        "className": "",
+        "x": 930,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3d97124ea8f3c131",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "Matricula Mas Almar",
+        "label": "",
+        "format": "1184FCM",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "d86926ad638cb184",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura Cuba MasAlmar",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 920,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "546fa7ae5460ed99",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 27,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo estacionado MasBadosa",
+        "label": "",
+        "format": "{{msg.payload}} s",
+        "layout": "col-center",
+        "className": "",
+        "x": 2110,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5ee934464262d671",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "name": "Matricula MasBadosa",
+        "label": "",
+        "format": "2456FCM",
+        "layout": "col-center",
+        "className": "",
+        "x": 2080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6e68818a5c0e6b5a",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 15,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura Cuba MasBadosa",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 2110,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "a99af845b53eeac3",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 28,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo estacionado MasColom",
+        "label": "",
+        "format": "{{msg.payload}} s",
+        "layout": "col-center",
+        "className": "",
+        "x": 930,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "68b64f71dc5ffb80",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "name": "Matricula MasColom",
+        "label": "",
+        "format": "8764FCM",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "5403f06d93a8d4a5",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 16,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura Cuba MasColom",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 930,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "59be7da9c1fb8866",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 29,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo estacionado MasSiset",
+        "label": "",
+        "format": "{{msg.payload}} s",
+        "layout": "col-center",
+        "className": "",
+        "x": 2110,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "cedfcf7385e2c77d",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "name": "Matricula MasSiset",
+        "label": "",
+        "format": "9264FCM",
+        "layout": "col-center",
+        "className": "",
+        "x": 2070,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "20603f0c69563789",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 17,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura Cuba MasSiset",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 2100,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "815270ad3aaf2f27",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 30,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo estacionado MasGener",
+        "label": "",
+        "format": "{{msg.payload}} s",
+        "layout": "col-center",
+        "className": "",
+        "x": 930,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "7ad6c15b14d70ff4",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "name": "Matricula MasGener",
+        "label": "",
+        "format": "0407FCM",
+        "layout": "col-center",
+        "className": "",
+        "x": 900,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "aa1c3e317ab70822",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 18,
+        "width": 3,
+        "height": 1,
+        "name": "Temperatura Cuba MasGener",
+        "label": "",
+        "format": "{{msg.payload.temp}} ºC",
+        "layout": "row-center",
+        "className": "",
+        "x": 930,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "647b3922fc842232",
+        "type": "ui_led",
+        "z": "05b7a88dd3d2ca9d",
+        "order": 20,
+        "group": "55f428461b511dca",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Acceso Mas Almar",
+        "x": 890,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "61d83f26e6ef1017",
+        "type": "ui_led",
+        "z": "05b7a88dd3d2ca9d",
+        "order": 21,
+        "group": "55f428461b511dca",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Acceso MasBadosa",
+        "x": 2080,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e012ed35eacb600a",
+        "type": "ui_led",
+        "z": "05b7a88dd3d2ca9d",
+        "order": 22,
+        "group": "55f428461b511dca",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Acceso MasColom",
+        "x": 890,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ee14efb74b90f5c8",
+        "type": "ui_led",
+        "z": "05b7a88dd3d2ca9d",
+        "order": 23,
+        "group": "55f428461b511dca",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Acceso CanSiset",
+        "x": 2070,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ebd884fc2b9b442c",
+        "type": "ui_led",
+        "z": "05b7a88dd3d2ca9d",
+        "order": 24,
+        "group": "55f428461b511dca",
+        "width": 3,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Acceso MasGener",
+        "x": 890,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "6589ad43257a7f4c",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "name": "ALMAR",
+        "label": "ALMAR",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 1420,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "ba20302d1ea07f86",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "BADOSA",
+        "label": "BADOSA",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 1420,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "746a27ed04775243",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "COLOM",
+        "label": "COLOM",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 1420,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "20731e7d56a98266",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "name": "SISET",
+        "label": "SISET",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 1410,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "0f51e06b4abc51d6",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "name": "GENER",
+        "label": "GENER",
+        "format": "",
+        "layout": "col-center",
+        "className": "",
+        "x": 1420,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "50fac0ccd855e971",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "name": "Matrícula",
+        "label": "Matrícula",
+        "format": "",
+        "layout": "row-right",
+        "className": "",
+        "x": 1600,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "399e11ee1dc13a5f",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "name": "T.Cuba",
+        "label": "T.Cuba",
+        "format": "",
+        "layout": "row-right",
+        "className": "",
+        "x": 1600,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "e3ebeb7e889251ef",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 25,
+        "width": 3,
+        "height": 1,
+        "name": "Tiempo",
+        "label": "Tiempo",
+        "format": "",
+        "layout": "row-right",
+        "className": "",
+        "x": 1600,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "4e299b5131cf18a5",
+        "type": "ui_text",
+        "z": "05b7a88dd3d2ca9d",
+        "group": "55f428461b511dca",
+        "order": 19,
+        "width": 3,
+        "height": 1,
+        "name": "Solicitud",
+        "label": "Solicitud",
+        "format": "",
+        "layout": "row-right",
+        "className": "",
+        "x": 1600,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "55e97a0a4e390476",
+        "type": "mqtt in",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Camiones",
+        "topic": "DMENGINEERING/camiones",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "03f9187215e186c8"
+            ]
+        ]
+    },
+    {
+        "id": "03f9187215e186c8",
+        "type": "json",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "d86926ad638cb184",
+                "ffcb95b87786ac06",
+                "02d67d9855fa1a28"
+            ]
+        ]
+    },
+    {
+        "id": "ffcb95b87786ac06",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Acceso",
+        "func": "if(msg.payload.sol == \"false\"){\n    msg.payload = false;\n}else{msg.payload = true;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "647b3922fc842232"
+            ]
+        ]
+    },
+    {
+        "id": "d8c4bc7ec67aca54",
+        "type": "mqtt in",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Camiones",
+        "topic": "DMENGINEERING/camiones",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1300,
+        "y": 180,
+        "wires": [
+            [
+                "9ca1f2556130be06"
+            ]
+        ]
+    },
+    {
+        "id": "9ca1f2556130be06",
+        "type": "json",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1470,
+        "y": 180,
+        "wires": [
+            [
+                "6e68818a5c0e6b5a",
+                "7d29a05fa9684076",
+                "1433bcf6f28ad064"
+            ]
+        ]
+    },
+    {
+        "id": "67424076760b23d7",
+        "type": "mqtt in",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Camiones",
+        "topic": "DMENGINEERING/camiones",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 460,
+        "wires": [
+            [
+                "6e405261904579d3"
+            ]
+        ]
+    },
+    {
+        "id": "6e405261904579d3",
+        "type": "json",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 460,
+        "wires": [
+            [
+                "5403f06d93a8d4a5",
+                "eff251ed74f7ce06",
+                "948fa2338f89b2d2"
+            ]
+        ]
+    },
+    {
+        "id": "dbb9b34afdfd6022",
+        "type": "mqtt in",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Camiones",
+        "topic": "DMENGINEERING/camiones",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1300,
+        "y": 460,
+        "wires": [
+            [
+                "3a84d8bd576a3fd7"
+            ]
+        ]
+    },
+    {
+        "id": "3a84d8bd576a3fd7",
+        "type": "json",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1470,
+        "y": 460,
+        "wires": [
+            [
+                "20603f0c69563789",
+                "bf40b4cd7850dc19",
+                "d9a589ad3f8ebe6d"
+            ]
+        ]
+    },
+    {
+        "id": "8846d3cbb9ddada3",
+        "type": "mqtt in",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Camiones",
+        "topic": "DMENGINEERING/camiones",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 740,
+        "wires": [
+            [
+                "641988f8eced8d6f"
+            ]
+        ]
+    },
+    {
+        "id": "641988f8eced8d6f",
+        "type": "json",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Datos JSon",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 740,
+        "wires": [
+            [
+                "aa1c3e317ab70822",
+                "db8848cc2d5afb64",
+                "69decc409d1453cf"
+            ]
+        ]
+    },
+    {
+        "id": "7d29a05fa9684076",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Acceso",
+        "func": "if(msg.payload.sol == \"false\"){\n    msg.payload = false;\n}else{msg.payload = true;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 300,
+        "wires": [
+            [
+                "61d83f26e6ef1017"
+            ]
+        ]
+    },
+    {
+        "id": "eff251ed74f7ce06",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Acceso",
+        "func": "if(msg.payload.sol == \"false\"){\n    msg.payload = false;\n}else{msg.payload = true;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 580,
+        "wires": [
+            [
+                "e012ed35eacb600a"
+            ]
+        ]
+    },
+    {
+        "id": "bf40b4cd7850dc19",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Acceso",
+        "func": "if(msg.payload.sol == \"false\"){\n    msg.payload = false;\n}else{msg.payload = true;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1700,
+        "y": 580,
+        "wires": [
+            [
+                "ee14efb74b90f5c8"
+            ]
+        ]
+    },
+    {
+        "id": "db8848cc2d5afb64",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Acceso",
+        "func": "if(msg.payload.sol == \"false\"){\n    msg.payload = false;\n}else{msg.payload = true;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 860,
+        "wires": [
+            [
+                "ebd884fc2b9b442c"
+            ]
+        ]
+    },
+    {
+        "id": "916afe1ceb25f170",
+        "type": "inject",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "996b8fac47aa54b5"
+            ]
+        ]
+    },
+    {
+        "id": "996b8fac47aa54b5",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "var status_ma = flow.get(\"status_ma\")  || \"false\";\nvar count_ma  = flow.get(\"counter_ma\") || 0;\n\n\nif (status_ma == \"true\"){\n    count_ma = count_ma + 1;\n}\n\nflow.set(\"counter_ma\",count_ma);\nmsg.payload = count_ma;\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 260,
+        "wires": [
+            [
+                "2dfba7b90ff845ab"
+            ]
+        ]
+    },
+    {
+        "id": "02d67d9855fa1a28",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "if (msg.payload.sol == \"false\") {\n    flow.set(\"counter_ma\",0);\n    \n}\nflow.set(\"status_ma\",msg.payload.sol);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0cc63292a18980c1",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "var status_mc = flow.get(\"status_mc\")  || \"false\";\nvar count_mc  = flow.get(\"counter_mc\") || 0;\n\n\nif (status_mc == \"true\"){\n    count_mc = count_mc + 1;\n}\n\nflow.set(\"counter_mc\",count_mc);\nmsg.payload = count_mc;\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 540,
+        "wires": [
+            [
+                "a99af845b53eeac3"
+            ]
+        ]
+    },
+    {
+        "id": "0b4f657f481f54bd",
+        "type": "inject",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "0cc63292a18980c1"
+            ]
+        ]
+    },
+    {
+        "id": "ae07d4bfe1e40bae",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "var status_mg = flow.get(\"status_mg\")  || \"false\";\nvar count_mg  = flow.get(\"counter_mg\") || 0;\n\n\nif (status_mg == \"true\"){\n    count_mg = count_mg + 1;\n}\n\nflow.set(\"counter_mg\",count_mg);\nmsg.payload = count_mg;\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 820,
+        "wires": [
+            [
+                "815270ad3aaf2f27"
+            ]
+        ]
+    },
+    {
+        "id": "5dbb0df6c51e2102",
+        "type": "inject",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 530,
+        "y": 820,
+        "wires": [
+            [
+                "ae07d4bfe1e40bae"
+            ]
+        ]
+    },
+    {
+        "id": "948fa2338f89b2d2",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "if (msg.payload.sol == \"false\") {\n    flow.set(\"counter_mc\",0);\n    \n}\nflow.set(\"status_mc\",msg.payload.sol);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "69decc409d1453cf",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "if (msg.payload.sol == \"false\") {\n    flow.set(\"counter_mg\",0);\n    \n}\nflow.set(\"status_mg\",msg.payload.sol);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "8367d418552445e7",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "var status_cs = flow.get(\"status_cs\")  || \"false\";\nvar count_cs  = flow.get(\"counter_cs\") || 0;\n\n\nif (status_cs == \"true\"){\n    count_cs = count_cs + 1;\n}\n\nflow.set(\"counter_cs\",count_cs);\nmsg.payload = count_cs;\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1870,
+        "y": 540,
+        "wires": [
+            [
+                "59be7da9c1fb8866"
+            ]
+        ]
+    },
+    {
+        "id": "fc9a5d1c16176b78",
+        "type": "inject",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1710,
+        "y": 540,
+        "wires": [
+            [
+                "8367d418552445e7"
+            ]
+        ]
+    },
+    {
+        "id": "d9a589ad3f8ebe6d",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "if (msg.payload.sol == \"false\") {\n    flow.set(\"counter_cs\",0);\n    \n}\nflow.set(\"status_cs\",msg.payload.sol);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1710,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "e2f0660fa9ea5dc6",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "var status_mb = flow.get(\"status_mb\")  || \"false\";\nvar count_mb  = flow.get(\"counter_mb\") || 0;\n\n\nif (status_mb == \"true\"){\n    count_mb = count_mb + 1;\n}\n\nflow.set(\"counter_mb\",count_mb);\nmsg.payload = count_mb;\nreturn msg;\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1870,
+        "y": 260,
+        "wires": [
+            [
+                "546fa7ae5460ed99"
+            ]
+        ]
+    },
+    {
+        "id": "8c9aad0b14416f48",
+        "type": "inject",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 1710,
+        "y": 260,
+        "wires": [
+            [
+                "e2f0660fa9ea5dc6"
+            ]
+        ]
+    },
+    {
+        "id": "1433bcf6f28ad064",
+        "type": "function",
+        "z": "05b7a88dd3d2ca9d",
+        "name": "Timer",
+        "func": "if (msg.payload.sol == \"false\") {\n    flow.set(\"counter_mb\",0);\n    \n}\nflow.set(\"status_mb\",msg.payload.sol);\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1710,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9236da6c66bd2bbd",
+        "type": "ui_gauge",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 1,
+        "width": 4,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad Oficina",
+        "label": "HR %",
+        "format": "{{msg.payload.hum}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 530,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "75ce18e906ca3b39",
+        "type": "ui_gauge",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 15,
+        "width": 4,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura Oficina",
+        "label": "ºC",
+        "format": "{{msg.payload.temp}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "e0139fcb22b85340",
+        "type": "ui_gauge",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 2,
+        "width": 4,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humedad Fabrica",
+        "label": "HR %",
+        "format": "{{msg.payload.hum}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 530,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b4c7c07250bb3710",
+        "type": "ui_gauge",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 16,
+        "width": 4,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperatura Fabrica",
+        "label": "ºC",
+        "format": "{{msg.payload.temp}}",
+        "min": "0",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "42f01e362f853645",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 26,
+        "width": 9,
+        "height": 5,
+        "label": "Consumo Clima (kW/h)",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "20",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27fabbf8f1cee0bd",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 28,
+        "width": 9,
+        "height": 5,
+        "label": "Temperaturas Mas Badosa",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "90",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f799522011caae4",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 27,
+        "width": 9,
+        "height": 5,
+        "label": "Temperaturas Mas Almar",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "90",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11d45140caf6377f",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 29,
+        "width": 9,
+        "height": 5,
+        "label": "Temperaturas Mas Colom",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "90",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "258307050a4d4628",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 31,
+        "width": 9,
+        "height": 5,
+        "label": "Temperaturas Mas Gener",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "90",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "93d103af67dd4247",
+        "type": "ui_chart",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 30,
+        "width": 9,
+        "height": 5,
+        "label": "Temperaturas Can Siset",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-10",
+        "ymax": "90",
+        "removeOlder": "5",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ed719e",
+            "#ff9300",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "81a042c516603369",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 8,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperatura Mas Badosa fuera de rango",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1040,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "338a640305f0161c",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 11,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperatura Mas Almar fuera de rango",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1040,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "29f0fec0674c4f5f",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 22,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperatura Mas Colom fuera de rango",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1040,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "8e8e53cd33731c14",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 14,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperatura Mas Gener fuera de rango",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1040,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "cb7770624364327f",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 19,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Temperatura Can Siset fuera de rango",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1030,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "9612d0ae778113ae",
+        "type": "ui_text",
+        "z": "ea322d9d7b04ccac",
+        "group": "905f100612cef275",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Maquinas de clima funcionando correctamente",
+        "format": "",
+        "layout": "row-left",
+        "className": "",
+        "x": 1060,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e44aa962a1551e7b",
+        "type": "ui_button",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "group": "905f100612cef275",
+        "order": 24,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "Notificar alarmas a mantenimiento",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 1220,
+        "wires": [
+            [
+                "c751644ed42c0979"
+            ]
+        ]
+    },
+    {
+        "id": "9d9582c4d77255af",
+        "type": "mqtt in",
+        "z": "ea322d9d7b04ccac",
+        "name": "Fabrica",
+        "topic": "DMENGINEERING/fabricas",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 360,
+        "wires": [
+            [
+                "1e93cf97aae7acc5"
+            ]
+        ]
+    },
+    {
+        "id": "a3becb73b48f01db",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 21,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "M.Colom",
+        "x": 940,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "9525ac86b4bb3d05",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 13,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "M.Gener",
+        "x": 940,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "39f953c3250c0fb9",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 18,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "C.Siset",
+        "x": 940,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "c751644ed42c0979",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "func": "msg.payload={\n    \"chatId\": 1130155255,\n    \"type\":\"message\",\n    \"content\": \"Revisar tanques de planta\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94b16fa115753143",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 4,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "M.Clima",
+        "x": 940,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "0acc35ee1c565c24",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 2",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 580,
+        "wires": [
+            [
+                "9a7483a930639d51"
+            ]
+        ]
+    },
+    {
+        "id": "9a7483a930639d51",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 7,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "M.Badosa",
+        "x": 940,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "0e1348c21797a923",
+        "type": "ui_led",
+        "z": "ea322d9d7b04ccac",
+        "order": 10,
+        "group": "905f100612cef275",
+        "width": 1,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#c9c5c5",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "M.Almar",
+        "x": 940,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "41461d2b4fb138f4",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 1",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "9a7483a930639d51"
+            ]
+        ]
+    },
+    {
+        "id": "d918c2bc87294a6d",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 2",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 720,
+        "wires": [
+            [
+                "0e1348c21797a923"
+            ]
+        ]
+    },
+    {
+        "id": "8a5d6978724f8df5",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 1",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 640,
+        "wires": [
+            [
+                "0e1348c21797a923"
+            ]
+        ]
+    },
+    {
+        "id": "c4930cf83ba4af5b",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 2",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 860,
+        "wires": [
+            [
+                "a3becb73b48f01db"
+            ]
+        ]
+    },
+    {
+        "id": "d1cb52baee314333",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 1",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 780,
+        "wires": [
+            [
+                "a3becb73b48f01db"
+            ]
+        ]
+    },
+    {
+        "id": "d04d428615975fae",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 2",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1000,
+        "wires": [
+            [
+                "9525ac86b4bb3d05"
+            ]
+        ]
+    },
+    {
+        "id": "40b4996b2da17ada",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 1",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 920,
+        "wires": [
+            [
+                "9525ac86b4bb3d05"
+            ]
+        ]
+    },
+    {
+        "id": "f06001b0a2823172",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 2",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1140,
+        "wires": [
+            [
+                "39f953c3250c0fb9"
+            ]
+        ]
+    },
+    {
+        "id": "8866f7831c087305",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Tanque 1",
+        "func": "if(msg.payload<40 || msg.payload>80){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1060,
+        "wires": [
+            [
+                "39f953c3250c0fb9"
+            ]
+        ]
+    },
+    {
+        "id": "c3a153cdccfc12c7",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Clima1",
+        "func": "if(msg.payload == 0){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "94b16fa115753143"
+            ]
+        ]
+    },
+    {
+        "id": "f03d5314b82397ed",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "Alarma Clima 2",
+        "func": "if(msg.payload == 0){\n    msg.payload=true;}\n    else{\n        msg.payload=false;}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 440,
+        "wires": [
+            [
+                "94b16fa115753143"
+            ]
+        ]
+    },
+    {
+        "id": "1e93cf97aae7acc5",
+        "type": "json",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "6fec242a6c46eb07",
+                "3b1493239643c1ff",
+                "0389643dbf13798c",
+                "dbf9c3da7feccf9a",
+                "43982d75d24d842d",
+                "eaef6a21e700a002",
+                "5ba4d633c05f2fd4",
+                "c485d5cc176983fc",
+                "84755e445c638d0a",
+                "7b3ba42fdd68ad71",
+                "125cc03417921c92",
+                "dad9dd134eba4804"
+            ]
+        ]
+    },
+    {
+        "id": "427bbdf30ebca0e4",
+        "type": "mqtt in",
+        "z": "ea322d9d7b04ccac",
+        "name": "Fabrica",
+        "topic": "DMENGINEERING/fabricas",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 220,
+        "wires": [
+            [
+                "b059c1710fd22e72"
+            ]
+        ]
+    },
+    {
+        "id": "3b22bfdea0d64d29",
+        "type": "mqtt in",
+        "z": "ea322d9d7b04ccac",
+        "name": "Oficina",
+        "topic": "DMENGINEERING/oficinas",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "14b8c63c8a0907c9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "40b1ced847677b75"
+            ]
+        ]
+    },
+    {
+        "id": "40b1ced847677b75",
+        "type": "json",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "9236da6c66bd2bbd",
+                "75ce18e906ca3b39"
+            ]
+        ]
+    },
+    {
+        "id": "b059c1710fd22e72",
+        "type": "json",
+        "z": "ea322d9d7b04ccac",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "e0139fcb22b85340",
+                "b4c7c07250bb3710"
+            ]
+        ]
+    },
+    {
+        "id": "6fec242a6c46eb07",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T1MB",
+        "func": "msg.payload = parseFloat(msg.payload.t1mb);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 640,
+        "wires": [
+            [
+                "5f799522011caae4",
+                "8a5d6978724f8df5"
+            ]
+        ]
+    },
+    {
+        "id": "eaef6a21e700a002",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T2MB",
+        "func": "msg.payload = parseFloat(msg.payload.t2mb);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 720,
+        "wires": [
+            [
+                "5f799522011caae4",
+                "d918c2bc87294a6d"
+            ]
+        ]
+    },
+    {
+        "id": "dbf9c3da7feccf9a",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T1MA",
+        "func": "msg.payload = parseFloat(msg.payload.t1ma);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 500,
+        "wires": [
+            [
+                "27fabbf8f1cee0bd",
+                "41461d2b4fb138f4"
+            ]
+        ]
+    },
+    {
+        "id": "43982d75d24d842d",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T2MA",
+        "func": "msg.payload = parseFloat(msg.payload.t2ma);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 580,
+        "wires": [
+            [
+                "27fabbf8f1cee0bd",
+                "0acc35ee1c565c24"
+            ]
+        ]
+    },
+    {
+        "id": "3b1493239643c1ff",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "CCO",
+        "func": "msg.payload = parseFloat(msg.payload.cco);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "42f01e362f853645",
+                "c3a153cdccfc12c7"
+            ]
+        ]
+    },
+    {
+        "id": "0389643dbf13798c",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "CCF",
+        "func": "msg.payload = parseFloat(msg.payload.ccf);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 440,
+        "wires": [
+            [
+                "42f01e362f853645",
+                "f03d5314b82397ed"
+            ]
+        ]
+    },
+    {
+        "id": "5ba4d633c05f2fd4",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T1MC",
+        "func": "msg.payload = parseFloat(msg.payload.t1mc);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 780,
+        "wires": [
+            [
+                "11d45140caf6377f",
+                "d1cb52baee314333"
+            ]
+        ]
+    },
+    {
+        "id": "c485d5cc176983fc",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T2MC",
+        "func": "msg.payload = parseFloat(msg.payload.t2mc);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 860,
+        "wires": [
+            [
+                "11d45140caf6377f",
+                "c4930cf83ba4af5b"
+            ]
+        ]
+    },
+    {
+        "id": "84755e445c638d0a",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T1MG",
+        "func": "msg.payload = parseFloat(msg.payload.t1mg);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 920,
+        "wires": [
+            [
+                "258307050a4d4628",
+                "40b4996b2da17ada"
+            ]
+        ]
+    },
+    {
+        "id": "7b3ba42fdd68ad71",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T2MG",
+        "func": "msg.payload = parseFloat(msg.payload.t2mg);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1000,
+        "wires": [
+            [
+                "258307050a4d4628",
+                "d04d428615975fae"
+            ]
+        ]
+    },
+    {
+        "id": "125cc03417921c92",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T1CS",
+        "func": "msg.payload = parseFloat(msg.payload.t1cs);\nmsg.topic = \"Tanque1\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1060,
+        "wires": [
+            [
+                "93d103af67dd4247",
+                "8866f7831c087305"
+            ]
+        ]
+    },
+    {
+        "id": "dad9dd134eba4804",
+        "type": "function",
+        "z": "ea322d9d7b04ccac",
+        "name": "T2CS",
+        "func": "msg.payload = parseFloat(msg.payload.t2cs);\nmsg.topic = \"Tanque2\"\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1140,
+        "wires": [
+            [
+                "93d103af67dd4247",
+                "f06001b0a2823172"
+            ]
+        ]
+    },
+    {
+        "id": "d93b0c69dd18d1ed",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "read",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "928a9914c779e1a7"
+            ]
+        ]
+    },
+    {
+        "id": "ba48642f90329253",
+        "type": "file in",
+        "z": "e1247b2ffee733dd",
+        "name": "routes",
+        "filename": "/home/pi/data/rutas.kml",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "31da06a20329d843"
+            ]
+        ]
+    },
+    {
+        "id": "31da06a20329d843",
+        "type": "xml",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "2951e74246aaa85f"
+            ]
+        ]
+    },
+    {
+        "id": "2951e74246aaa85f",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "save routes to flow variables",
+        "func": "function string_to_lat_lon_points(kml, position) {\n    // Transforms string coordinates to well structured array coordinates\n    var string_points = kml.Document[0].Folder[position].Placemark[0].LineString[0].coordinates[0];\n    string_points = string_points.substring(7);\n    \n    var points = string_points.split(\"\\n\");\n    points.pop()\n    \n    points.forEach(function(part, index) {\n      this[index] = points[index].split(\",\");\n      this[index] = this[index].map(Number)\n      this[index].pop()\n    }, points);\n    \n    // Change lat lon position\n    points.forEach(function(part, index) { \n        var lat = points[index][0]    \n        var lon = points[index][1]\n        points[index][0] = lon,    \n        points[index][1] = lat\n    }, points);\n    return points;\n}\n\nfarms = flow.get(\"farms\");\nfarms.mas_gener.route = string_to_lat_lon_points(msg.payload.kml, 1);\nfarms.mas_almar.route = string_to_lat_lon_points(msg.payload.kml, 2);\nfarms.can_siset.route = string_to_lat_lon_points(msg.payload.kml, 3);\nfarms.mas_colom.route = string_to_lat_lon_points(msg.payload.kml, 4);\nfarms.mas_badosa.route = string_to_lat_lon_points(msg.payload.kml, 5);\n\nflow.set(\"farms\", farms);",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "928a9914c779e1a7",
+        "type": "file in",
+        "z": "e1247b2ffee733dd",
+        "name": "farms",
+        "filename": "/home/pi/data/granjas.kml",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 290,
+        "y": 100,
+        "wires": [
+            [
+                "b223bb9b9e45286c"
+            ]
+        ]
+    },
+    {
+        "id": "b223bb9b9e45286c",
+        "type": "xml",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "0ef99ae6be3bd388"
+            ]
+        ]
+    },
+    {
+        "id": "0ef99ae6be3bd388",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "save farms to flow variables",
+        "func": "function kml_to_poligon_center(kml, position) {\n    // Transforms string coordinates to well structured poligon and center coordinates\n    var farm = kml.Document[0].Placemark[position];\n    \n    var center_point = {\n        \"lat\": parseFloat(farm.LookAt[0].latitude[0]),\n        \"lon\": parseFloat(farm.LookAt[0].longitude[0])\n    }\n    \n    var area_points = farm.Polygon[0].outerBoundaryIs[0].LinearRing[0].coordinates[0]\n    area_points = area_points.substring(7);\n    \n    var area = area_points.split(\" \");\n    area.pop()\n    \n    area.forEach(function(part, index) {\n      this[index] = area[index].split(\",\");\n      this[index] = this[index].map(Number)\n      this[index].pop()\n    }, area);\n    \n    // Change lat lon position\n    area.forEach(function(part, index) { \n        var lat = area[index][0]    \n        var lon = area[index][1]\n        area[index][0] = lon,    \n        area[index][1] = lat\n    }, area);\n    \n    return {\n        \"area\": area, \n        \"center_point\": center_point,\n        \"cows\": [],\n        \"route\": []\n    };\n}\n\n// Prepare final message\nvar farms = {\n    \"mas_gener\": kml_to_poligon_center(msg.payload.kml, 0),\n    \"mas_almar\": kml_to_poligon_center(msg.payload.kml, 1),\n    \"can_siset\": kml_to_poligon_center(msg.payload.kml, 2),\n    \"mas_colom\": kml_to_poligon_center(msg.payload.kml, 3),\n    \"mas_badosa\": kml_to_poligon_center(msg.payload.kml, 4)\n}\n\nflow.set(\"farms\", farms);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 600,
+        "y": 100,
+        "wires": [
+            [
+                "ba48642f90329253"
+            ]
+        ]
+    },
+    {
+        "id": "4d600459074e1702",
+        "type": "comment",
+        "z": "e1247b2ffee733dd",
+        "name": "Read configuration files",
+        "info": "",
+        "x": 140,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "edb63a770316a294",
+        "type": "ui_worldmap",
+        "z": "e1247b2ffee733dd",
+        "group": "55f428461b511dca",
+        "order": 31,
+        "width": 18,
+        "height": 6,
+        "name": "Routes Map",
+        "lat": "42.03",
+        "lon": "2.85",
+        "zoom": "10.5",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "true",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "false",
+        "allowFileDrop": "false",
+        "path": "/map/routes",
+        "overlist": "",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,SW",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 970,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "26be7d1c7c6fcb1c",
+        "type": "worldmap in",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "path": "/map/routes",
+        "events": "connect",
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "d237c6c19d6ecd49"
+            ]
+        ]
+    },
+    {
+        "id": "d237c6c19d6ecd49",
+        "type": "change",
+        "z": "e1247b2ffee733dd",
+        "name": "send routes",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "farms",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "265185db3e95de76"
+            ]
+        ]
+    },
+    {
+        "id": "265185db3e95de76",
+        "type": "split",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "farm_name",
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "1db3fe85a2a5629a"
+            ]
+        ]
+    },
+    {
+        "id": "1db3fe85a2a5629a",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "prepare routes to map",
+        "func": "var colors = {\n    \"mas_gener\": \"red\",\n    \"mas_almar\": \"blue\",\n    \"can_siset\": \"green\",\n    \"mas_colom\": \"yellow\",\n    \"mas_badosa\": \"black\"\n}\n\nvar route = {\n    \"name\": msg.farm_name,\n    \"line\": msg.payload.route,\n    \"color\": colors[msg.farm_name]\n}\n\nmsg.payload = route\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 260,
+        "wires": [
+            [
+                "edb63a770316a294"
+            ]
+        ]
+    },
+    {
+        "id": "47c750e84b0a246f",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "prepare mas_gener to map",
+        "func": "var command = {\n    \"command\": {\n        \"lat\": msg.payload.center_point.lat,\n        \"lon\": msg.payload.center_point.lon,\n        \"zoom\": 16\n    }\n}\n\nvar area = {\n    \"name\": \"Mas Gener\",\n    \"area\": msg.payload.area,\n    \"color\": \"red\",\n    \"fillColor\": \"red\",\n    \"fillOpacity\": 0.2,\n    \"layer\": \"area\"\n}\n\nmsg.payload = command\nnode.send(msg)\n\nmsg.payload = area\nnode.send(msg)",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 360,
+        "wires": [
+            [
+                "0d96ac144a59fe23",
+                "3561825ff8d51be2"
+            ]
+        ]
+    },
+    {
+        "id": "8086a3a3139aa464",
+        "type": "worldmap in",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "path": "/map/farm1",
+        "events": "connect",
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "1c727ddabe4acf6f"
+            ]
+        ]
+    },
+    {
+        "id": "0d96ac144a59fe23",
+        "type": "ui_worldmap",
+        "z": "e1247b2ffee733dd",
+        "group": "0d28af245d9d5637",
+        "order": 5,
+        "width": 12,
+        "height": 8,
+        "name": "Farm Map",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMC",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "hide",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "allowFileDrop": "false",
+        "path": "map/farm1",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,SW",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 970,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "1c727ddabe4acf6f",
+        "type": "change",
+        "z": "e1247b2ffee733dd",
+        "name": "obtain mas_gener info",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "farms.mas_gener",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 360,
+        "wires": [
+            [
+                "47c750e84b0a246f",
+                "fda73a4be7762394"
+            ]
+        ]
+    },
+    {
+        "id": "892bb2275050e2e3",
+        "type": "comment",
+        "z": "e1247b2ffee733dd",
+        "name": "All Routes",
+        "info": "",
+        "x": 100,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "56f9484cead14c8c",
+        "type": "comment",
+        "z": "e1247b2ffee733dd",
+        "name": "Farms",
+        "info": "",
+        "x": 90,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fda73a4be7762394",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "update cows",
+        "func": "farms = flow.get(\"farms\");\nfarm = farms[\"mas_gener\"];\n\nvar cows = farm.cows;\n\ncows.forEach(function(part, index) {\n    cows[index].icon = \":cow2:\";\n    cows[index].layer = \"cows\";\n    cows[index].weblink = [\n        {\n            \"name\":\"BBC News\", \n            \"url\":\"https://news.bbc.co.uk\", \n            \"target\":\"_new\"\n        },\n        {\n            \"name\":\"node-red\", \n            \"url\":\"https://nodered.org\", \n            \"target\":\"_new\"\n        }\n    ];\n    msg.payload = cows[index];\n    node.send(msg);\n})",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "0d96ac144a59fe23",
+                "f026b1797bdb7e31"
+            ]
+        ]
+    },
+    {
+        "id": "f026b1797bdb7e31",
+        "type": "debug",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "9415f6418d0d3d7e",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "mas_gener",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 160,
+        "y": 560,
+        "wires": [
+            [
+                "f420c5c16c972d5d"
+            ]
+        ]
+    },
+    {
+        "id": "77ca2a956bb47106",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "can_siset",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "f420c5c16c972d5d"
+            ]
+        ]
+    },
+    {
+        "id": "ddf19dae0054e191",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "mas_almar",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 160,
+        "y": 640,
+        "wires": [
+            [
+                "f420c5c16c972d5d"
+            ]
+        ]
+    },
+    {
+        "id": "adc60286ae97673b",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "mas_badosa",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 170,
+        "y": 680,
+        "wires": [
+            [
+                "f420c5c16c972d5d"
+            ]
+        ]
+    },
+    {
+        "id": "c1eb39de249ff0e5",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "mas_colom",
+        "payload": "20",
+        "payloadType": "num",
+        "x": 160,
+        "y": 720,
+        "wires": [
+            [
+                "f420c5c16c972d5d"
+            ]
+        ]
+    },
+    {
+        "id": "e5f609e95b941b4b",
+        "type": "comment",
+        "z": "e1247b2ffee733dd",
+        "name": "Create fake cow GPS position",
+        "info": "",
+        "x": 180,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f420c5c16c972d5d",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "create & save fake cow data",
+        "func": "function get_area_points(area, quantity){\n    var points = [];\n    var x = []\n    var y = []\n    \n    area.forEach(function(part, index) { \n        x.push(area[index][0])\n        y.push(area[index][1])\n    }, area);\n    \n    min_x = Math.min.apply(null, x);\n    max_x = Math.max.apply(null, x);\n    min_y = Math.min.apply(null, y);\n    max_y = Math.max.apply(null, y);\n    \n    while (points.length < quantity) {\n        var random_x = (Math.random() * (max_x - min_x)) + min_x\n        var random_y = (Math.random() * (max_y - min_y)) + min_y\n        \n        var inside = false;\n        for (var i = 0, j = area.length - 1; i < area.length; j = i++) {\n            var xi = area[i][0], yi = area[i][1];\n            var xj = area[j][0], yj = area[j][1];\n        \n            var intersect = ((yi > random_y) != (yj > random_y)) && (random_x < (xj - xi) * (random_y - yi) / (yj - yi) + xi);\n            if (intersect) inside = !inside;\n        }  \n        if (inside) points.push( {\"name\": points.length, \"lat\": random_x, \"lon\": random_y, \"temp\": 21.5} )\n    }\n    \n    return points;\n}\n\nfarms = flow.get(\"farms\");\n\nfarms[msg.topic].cows = get_area_points(farms[msg.topic].area, msg.payload);\n\nflow.set(\"farms\", farms);",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "cc16d2297a0849b1",
+        "type": "function",
+        "z": "e1247b2ffee733dd",
+        "name": "read cow from flow variable",
+        "func": "farm_id = msg.topic\ncow_id = msg.payload\n\nflow_cow_info = \"farms.\" + farm_id + \".cows.\" + String(cow_id) // preparas el string para acceder a la informacion\n\ncow = flow.get(flow_cow_info) // obtienes toda la info de una sola vaca\n\nmsg.payload = cow\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 860,
+        "wires": [
+            [
+                "c156495dde88cef1"
+            ]
+        ]
+    },
+    {
+        "id": "0e7ee472c4c4fd26",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "cow_id",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "mas_almar",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 130,
+        "y": 860,
+        "wires": [
+            [
+                "cc16d2297a0849b1"
+            ]
+        ]
+    },
+    {
+        "id": "c156495dde88cef1",
+        "type": "debug",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "875bdfd0767ee0f3",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 500,
+        "y": 300,
+        "wires": [
+            [
+                "1c727ddabe4acf6f"
+            ]
+        ]
+    },
+    {
+        "id": "3561825ff8d51be2",
+        "type": "debug",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e797f93c76bbd413",
+        "type": "csv",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 530,
+        "y": 980,
+        "wires": [
+            [
+                "76acbb9be4949ce3"
+            ]
+        ]
+    },
+    {
+        "id": "5db87a347dc72128",
+        "type": "inject",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 980,
+        "wires": [
+            [
+                "e797f93c76bbd413"
+            ]
+        ]
+    },
+    {
+        "id": "76acbb9be4949ce3",
+        "type": "file",
+        "z": "e1247b2ffee733dd",
+        "name": "",
+        "filename": "encontrame2",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 750,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e28f8e418c6d868",
+        "type": "sqlite",
+        "z": "e1247b2ffee733dd",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 670,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2a3d9f1.5390d8",
+        "type": "sqlite",
+        "z": "f93c0a50.5c7e1",
+        "mydb": "3bfd9d7f.cf1362",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 740,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cb466d45.7e009",
+        "type": "comment",
+        "z": "f93c0a50.5c7e1",
+        "name": "Vacas sqlite",
+        "info": "",
+        "x": 170,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f5561974.0251b8",
+        "type": "function",
+        "z": "f93c0a50.5c7e1",
+        "name": "INSERT INTO",
+        "func": "var random_num = Math.round(Math.random()*100);\nvar large_bool = (random_num > 50)?1:0;\n\nmsg.topic = \"INSERT INTO randomnum VALUES (\" + \n    msg.payload + \", \" + \n    random_num + \", \" + \n    large_bool + \")\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "f2a3d9f1.5390d8",
+                "6954e6e7.cafd18"
+            ]
+        ]
+    },
+    {
+        "id": "4da0c3ef.99aa9c",
+        "type": "sqlite",
+        "z": "f93c0a50.5c7e1",
+        "mydb": "3bfd9d7f.cf1362",
+        "sqlquery": "fixed",
+        "sql": "SELECT * FROM RANDOMNUM ORDER BY TIMESTAMP DESC LIMIT 100;",
+        "name": "",
+        "x": 880,
+        "y": 160,
+        "wires": [
+            [
+                "5410f80c.821228"
+            ]
+        ]
+    },
+    {
+        "id": "5410f80c.821228",
+        "type": "ui_template",
+        "z": "f93c0a50.5c7e1",
+        "group": "26510aa5.3fee7e",
+        "name": "",
+        "order": 4,
+        "width": 8,
+        "height": "8",
+        "format": "<style>\n    table.greyGridTable {\n      border: 2px solid #000000;\n      width: 100%;\n      text-align: center;\n      border-collapse: collapse;\n    }\n    table.greyGridTable td, table.greyGridTable th {\n      border: 1px solid #000000;\n      padding: 2px 4px;\n    }\n    table.greyGridTable tbody td {\n      font-size: 13px;\n      color: #000000;\n    }\n    table.greyGridTable thead {\n        border-bottom: 3px solid #000000;\n    }\n    table.greyGridTable thead th {\n      font-size: 15px;\n      font-weight: bold;\n      color: #000000;\n      text-align: center;\n      border-left: 2px solid #000000;\n    }\n    table.greyGridTable thead th:first-child {\n      border-left: none;\n    }\n\n</style>\n\n<table class=\"greyGridTable\">\n  <thead>\n  <tr>\n    <th>Index</th> \n    <th>Timestamp</th>\n    <th>Value</th> \n    <th>Bool</th>\n  </tr>\n  </thead>\n  <tbody>\n  <tr ng-repeat=\"x in msg.payload | limitTo:25\">\n    <td>{{$index}}</td>\n    <td>{{msg.payload[$index].timestamp}}</td>\n    <td>{{msg.payload[$index].value}}</td> \n    <td>{{msg.payload[$index].bool}}</td>\n  </tr>\n  </tbody>\n</table>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 160,
+        "wires": [
+            []
+        ],
+        "info": "https://divtable.com/table-styler/"
+    },
+    {
+        "id": "d12e6edb.f7e83",
+        "type": "ui_button",
+        "z": "f93c0a50.5c7e1",
+        "name": "Add random data",
+        "group": "26510aa5.3fee7e",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "random data",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "green",
+        "icon": "add",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "",
+        "x": 230,
+        "y": 140,
+        "wires": [
+            [
+                "f5561974.0251b8"
+            ]
+        ]
+    },
+    {
+        "id": "e69cab75.9d3ee8",
+        "type": "ui_button",
+        "z": "f93c0a50.5c7e1",
+        "name": "Remove oldest data",
+        "group": "26510aa5.3fee7e",
+        "order": 5,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "oldest data",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "remove",
+        "payload": "old",
+        "payloadType": "str",
+        "topic": "",
+        "x": 220,
+        "y": 220,
+        "wires": [
+            [
+                "59c4a908.69c9a8"
+            ]
+        ]
+    },
+    {
+        "id": "59c4a908.69c9a8",
+        "type": "function",
+        "z": "f93c0a50.5c7e1",
+        "name": "DELETE FROM",
+        "func": "if (msg.payload == \"new\") {\n    msg.topic = \"DELETE FROM randomnum \" +\n        \"WHERE timestamp = (\"+ \n        \"SELECT max(timestamp) FROM randomnum)\"\n        \n} else if (msg.payload == \"old\") {\n    msg.topic = \"DELETE FROM randomnum \" +\n        \"WHERE timestamp = (\"+ \n        \"SELECT min(timestamp) FROM randomnum)\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 440,
+        "y": 180,
+        "wires": [
+            [
+                "f2a3d9f1.5390d8",
+                "6954e6e7.cafd18"
+            ]
+        ]
+    },
+    {
+        "id": "747cf03e.fe7c2",
+        "type": "ui_button",
+        "z": "f93c0a50.5c7e1",
+        "name": "Undo",
+        "group": "26510aa5.3fee7e",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "undo",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "red",
+        "icon": "undo",
+        "payload": "new",
+        "payloadType": "str",
+        "topic": "",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "59c4a908.69c9a8"
+            ]
+        ]
+    },
+    {
+        "id": "6954e6e7.cafd18",
+        "type": "ui_button",
+        "z": "f93c0a50.5c7e1",
+        "name": "Update",
+        "group": "26510aa5.3fee7e",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Update",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "blue",
+        "icon": "sync",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 660,
+        "y": 160,
+        "wires": [
+            [
+                "4da0c3ef.99aa9c"
+            ]
+        ]
+    },
+    {
+        "id": "af677d0f.c2878",
+        "type": "function",
+        "z": "f93c0a50.5c7e1",
+        "name": "CREATE TABLE",
+        "func": "msg.topic = \" CREATE TABLE persons( \" +\n    \"id INT PRIMARY KEY, \" +\n    \"name TEXT(20), \" +\n    \"age INT, \" +\n    \"alive BOOL DEFAULT 1)\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 760,
+        "y": 600,
+        "wires": [
+            [
+                "2f2fc070.94ccc"
+            ]
+        ]
+    },
+    {
+        "id": "4280c985.a672c8",
+        "type": "inject",
+        "z": "f93c0a50.5c7e1",
+        "name": "Persons",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 580,
+        "y": 600,
+        "wires": [
+            [
+                "af677d0f.c2878"
+            ]
+        ]
+    },
+    {
+        "id": "7d02f085.713ef",
+        "type": "function",
+        "z": "f93c0a50.5c7e1",
+        "name": "INSERT INTO",
+        "func": "msg.topic = \"INSERT INTO persons VALUES( \" +\n    msg.payload + \", \" +\n    \"'\" + msg.topic + \"', \" +\n    \"45,\" +\n    \"1 )\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 760,
+        "y": 640,
+        "wires": [
+            [
+                "2f2fc070.94ccc"
+            ]
+        ]
+    },
+    {
+        "id": "3111dc1b.b7d2b4",
+        "type": "inject",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "John",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "John",
+        "payload": "",
+        "payloadType": "date",
+        "x": 560,
+        "y": 640,
+        "wires": [
+            [
+                "7d02f085.713ef"
+            ]
+        ]
+    },
+    {
+        "id": "c3b222bb.e037f",
+        "type": "sqlite",
+        "z": "f93c0a50.5c7e1",
+        "mydb": "3bfd9d7f.cf1362",
+        "sqlquery": "fixed",
+        "sql": "SELECT * FROM persons;",
+        "name": "check persons",
+        "x": 760,
+        "y": 680,
+        "wires": [
+            [
+                "e8e75dfa.de2b3"
+            ]
+        ]
+    },
+    {
+        "id": "d636fcfc.42689",
+        "type": "inject",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 580,
+        "y": 680,
+        "wires": [
+            [
+                "c3b222bb.e037f"
+            ]
+        ]
+    },
+    {
+        "id": "e8e75dfa.de2b3",
+        "type": "debug",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 970,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "2f2fc070.94ccc",
+        "type": "sqlite",
+        "z": "f93c0a50.5c7e1",
+        "mydb": "3bfd9d7f.cf1362",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 1060,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a7e9d9c5.c23608",
+        "type": "function",
+        "z": "f93c0a50.5c7e1",
+        "name": "CREATE TABLE",
+        "func": "msg.topic = \" CREATE TABLE randomnum( \" +\n    \"timestamp INT PRIMARY KEY NOT NULL, \" +\n    \"value INT NOT NULL, \" +\n    \"bool INT NOT NULL)\";\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 440,
+        "y": 100,
+        "wires": [
+            [
+                "f2a3d9f1.5390d8"
+            ]
+        ]
+    },
+    {
+        "id": "cbe14ae7.92daa8",
+        "type": "inject",
+        "z": "f93c0a50.5c7e1",
+        "name": "Random numbers",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "a7e9d9c5.c23608"
+            ]
+        ]
+    },
+    {
+        "id": "51aa40b9.0f452",
+        "type": "sqlite",
+        "z": "f93c0a50.5c7e1",
+        "mydb": "3bfd9d7f.cf1362",
+        "sqlquery": "fixed",
+        "sql": "SELECT * FROM randomnum;",
+        "name": "check randomnum",
+        "x": 750,
+        "y": 480,
+        "wires": [
+            [
+                "b07535e3.eac468",
+                "0d61a5ad1e4247f1"
+            ]
+        ]
+    },
+    {
+        "id": "1012c958.716c77",
+        "type": "inject",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 560,
+        "y": 480,
+        "wires": [
+            [
+                "51aa40b9.0f452"
+            ]
+        ]
+    },
+    {
+        "id": "b07535e3.eac468",
+        "type": "debug",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 950,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0d61a5ad1e4247f1",
+        "type": "csv",
+        "z": "f93c0a50.5c7e1",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 950,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a51ba80c502d95d2",
+        "type": "ui_button",
+        "z": "f93c0a50.5c7e1",
+        "name": "Download",
+        "group": "26510aa5.3fee7e",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Download",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "Download",
+        "payload": "new",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 580,
+        "y": 520,
+        "wires": [
+            [
+                "51aa40b9.0f452"
+            ]
+        ]
+    }
+]
